@@ -1,0 +1,12 @@
+<app-header-dalmiac [dalmiacMyData]="dalmiacPersonal"></app-header-dalmiac>
+<mat-tab-group color="warn">
+  <mat-tab label="Restaurant Menu">
+    <app-dalmiac-restaurant-menu [sharedRestaurantInfo991714375]="dalmiacRestaurantinfoJSON"
+      [sharedRestaurantMenu991714375]="dalmiacRestaurantMenuJSON"></app-dalmiac-restaurant-menu>
+  </mat-tab>
+  <mat-tab label="Menu Options">
+    <app-dalmiac-menu-options [sharedRestaurantMenu991714375]="dalmiacRestaurantMenuJSON"></app-dalmiac-menu-options>
+  </mat-tab>
+</mat-tab-group>
+
+<app-footer-dalmiac [dalmiacMyData]="dalmiacPersonal"></app-footer-dalmiac>

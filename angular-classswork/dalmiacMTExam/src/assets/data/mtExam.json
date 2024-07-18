@@ -1,0 +1,102 @@
+{
+  "restaurantInfo": {
+    "name": "McDonalds",
+    "address": "123 Yonge St, Toronto",
+    "province": "Ontario",
+    "postalCode": "M5C 1W4",
+    "country": "Canada",
+    "contactNumber": "416-123-4567"
+  },
+  "menuItems": [
+    {
+      "name": "Egg BLT McMuffin",
+      "price": 2.99,
+      "calories": 360,
+      "section": "Breakfast"
+    },
+    {
+      "name": "Breakfast Burrito",
+      "price": 5.49,
+      "calories": 290,
+      "section": "Breakfast"
+    },
+    {
+      "name": "Egg BLT McMuffin",
+      "price": 2.99,
+      "calories": 360,
+      "section": "Breakfast"
+    },
+    {
+      "name": "Big Mac",
+      "price": 9.99,
+      "calories": 570,
+      "section": "Beef"
+    },
+    {
+      "name": "Double Cheeseburger",
+      "price": 7.49,
+      "calories": 420,
+      "section": "Beef"
+    },
+    {
+      "name": "Double Quarter Pounder",
+      "price": 15.99,
+      "calories": 750,
+      "section": "Beef"
+    },
+    {
+      "name": "McCrispy",
+      "price": 8.99,
+      "calories": 520,
+      "section": "Chicken"
+    },
+    {
+      "name": "Junior Chicken",
+      "price": 4.49,
+      "calories": 380,
+      "section": "Chicken"
+    },
+    {
+      "name": "Chicken McNuggets",
+      "price": 10.99,
+      "calories": 410,
+      "section": "Chicken"
+    },
+    {
+      "name": "World Famous Fries",
+      "price": 10.99,
+      "calories": 560,
+      "section": "Sides"
+    },
+    {
+      "name": "Poutine",
+      "price": 15.99,
+      "calories": 1730,
+      "section": "Sides"
+    },
+    {
+      "name": "Baked Apple Pie",
+      "price": 2.99,
+      "calories": 270,
+      "section": "Sides"
+    },
+    {
+      "name": "Pop",
+      "price": 2.99,
+      "calories": 280,
+      "section": "Beverages"
+    },
+    {
+      "name": "Juice",
+      "price": 4.99,
+      "calories": 210,
+      "section": "Beverages"
+    },
+    {
+      "name": "Milk",
+      "price": 5.99,
+      "calories": 150,
+      "section": "Beverages"
+    }
+  ]
+}

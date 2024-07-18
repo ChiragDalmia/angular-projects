@@ -1,0 +1,31 @@
+<table mat-table [dataSource]="sharedRestaurantMenu991714375" class="mat-elevation-z8">
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Name </th>
+    <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="calories">
+    <th mat-header-cell *matHeaderCellDef> Calories </th>
+    <td mat-cell *matCellDef="let element"> {{element.calories}} Cals </td>
+  </ng-container>
+
+  <ng-container matColumnDef="price">
+    <th mat-header-cell *matHeaderCellDef> Price </th>
+    <td mat-cell *matCellDef="let element"> CA$ {{element.price}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="section">
+    <th mat-header-cell *matHeaderCellDef> Section </th>
+    <td mat-cell *matCellDef="let element"> {{element.section}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="['name', 'calories', 'price', 'section']"></tr>
+  <tr mat-row *matRowDef="let row; columns: ['name', 'calories', 'price', 'section'];"></tr>
+</table>
+
+<div style="text-align: center; margin: 10px; color: white;">
+  <h3>{{ sharedRestaurantInfo991714375.name }}</h3>
+  <p>{{ sharedRestaurantInfo991714375.address }}, {{ sharedRestaurantInfo991714375.province }}, {{
+    sharedRestaurantInfo991714375.postalCode }}, {{ sharedRestaurantInfo991714375.country }}</p>
+  <p>Contact number: {{ sharedRestaurantInfo991714375.contactNumber }}</p>
+</div>
