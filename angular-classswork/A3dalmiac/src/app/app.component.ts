@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { A3ClassDalmiac } from './classDalmiac';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'A3dalmiac';
+  profileDalmiac = new A3ClassDalmiac();
 }
