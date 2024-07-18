@@ -1,0 +1,11 @@
+<div class="container">
+  <mat-form-field appearance="fill">
+    <mat-label>Select Campus</mat-label>
+    <mat-select (selectionChange)="onCampusChange($event)">
+      <mat-option *ngFor="let campus of campusData991714375" [value]="campus.campus">
+        {{ campus.campus }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div class="address" *ngIf="campusAddress">{{ campusAddress }}</div>
+</div>

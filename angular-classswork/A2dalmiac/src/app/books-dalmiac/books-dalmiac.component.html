@@ -1,0 +1,16 @@
+<table mat-table [dataSource]="myBooks991714375" class="mat-elevation-z8">
+  <ng-container matColumnDef="authorName">
+    <th mat-header-cell *matHeaderCellDef> Author </th>
+    <td mat-cell *matCellDef="let element"> {{element.authorName}} </td>
+  </ng-container>
+  <ng-container matColumnDef="bookTitle">
+    <th mat-header-cell *matHeaderCellDef> Title </th>
+    <td mat-cell *matCellDef="let element"> {{element.bookTitle}} </td>
+  </ng-container>
+  <ng-container matColumnDef="published">
+    <th mat-header-cell *matHeaderCellDef> Published </th>
+    <td mat-cell *matCellDef="let element"> {{element.published}} </td>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="['authorName', 'bookTitle', 'published']"></tr>
+  <tr mat-row *matRowDef="let row; columns: ['authorName', 'bookTitle', 'published'];"></tr>
+</table>

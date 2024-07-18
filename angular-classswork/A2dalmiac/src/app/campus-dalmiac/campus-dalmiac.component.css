@@ -1,0 +1,19 @@
+.container {
+  max-width: 400px;
+  padding: 20px;
+}
+
+h3 {
+  background-color: #3f51b5;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.address {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
