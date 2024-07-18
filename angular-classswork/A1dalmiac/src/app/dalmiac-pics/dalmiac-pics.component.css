@@ -1,0 +1,22 @@
+.image-dimensions {
+  width: 100px;
+  height: 100px;
+}
+
+.dalmiacPersonalCSS {
+  background-color: rgb(132, 132, 241);
+
+  border-radius: 10px;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  flex: 1;
+}
+
+.dalmiacCountryCSS {
+  border: thick double green;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  flex: 1;
+}

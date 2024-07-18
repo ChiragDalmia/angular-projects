@@ -1,0 +1,10 @@
+div {
+  text-align: center;
+  font-variant: small-caps;
+  color: rgb(255, 255, 255);
+  background-color: rgb(132, 132, 241);
+  max-width: fit-content;
+  padding: 10px 25px;
+  margin: 20px auto;
+  border-radius: 20px;
+}

@@ -1,0 +1,12 @@
+<section [ngStyle]="{ display: 'flex' }">
+  <figure>
+    <img [src]="'assets/images/' + dalmiacPersonalImage"
+      [ngClass]="{'dalmiacPersonalCSS': isPersonalImage, 'image-dimensions': true}">
+    <figcaption>{{dalmiacMe.dalmiacName}}</figcaption>
+  </figure>
+  <figure>
+    <img [src]="'assets/images/' + dalmiacCountryFlag"
+      [ngClass]="{'dalmiacCountryCSS': isCountryFlag, 'image-dimensions': true}">
+    <figcaption>{{dalmiacData.dalmiacCountry}}</figcaption>
+  </figure>
+</section>
