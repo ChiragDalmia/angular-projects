@@ -1,4 +1,68 @@
-/* You can add global styles to this file, and also import other style files */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+app-header-dalmiac,
+app-footer-dalmiac {
+  background-color: #0000ff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card-image {
+  max-width: 200px;
+  height: auto;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container button {
+  margin: 5px 0;
+}
+
+.REDdalmiac {
+  color: crimson;
+}
+
+.BLACKdalmiac {
+  color: black;
+}

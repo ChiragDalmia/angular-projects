@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { A3ClassDalmiac } from '../classDalmiac';
 
 @Component({
   selector: 'app-header-dalmiac',
   templateUrl: './header-dalmiac.component.html',
-  styleUrl: './header-dalmiac.component.css'
+  styleUrls: ['./header-dalmiac.component.css'],
 })
 export class HeaderDalmiacComponent {
-
+  @Input() HFdalmiac!: A3ClassDalmiac;
 }

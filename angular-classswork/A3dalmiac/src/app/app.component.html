@@ -1,5 +1,14 @@
-<main class="main">
+<div class="app-container">
+  <app-header-dalmiac [HFdalmiac]="profileDalmiac"></app-header-dalmiac>
 
-</main>
+  <nav>
+    <a routerLink="/ace" routerLinkActive="active">ACE</a>
+    <a routerLink="/king" routerLinkActive="active">KING</a>
+    <a routerLink="/queen" routerLinkActive="active">QUEEN</a>
+    <a routerLink="/jack" routerLinkActive="active">JACK</a>
+  </nav>
 
-<router-outlet />
+  <router-outlet></router-outlet>
+
+  <app-footer-dalmiac [HFdalmiac]="profileDalmiac"></app-footer-dalmiac>
+</div>

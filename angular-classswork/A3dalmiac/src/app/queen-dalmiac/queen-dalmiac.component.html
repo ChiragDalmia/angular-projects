@@ -1,0 +1,13 @@
+<div class="card-container">
+  <span class="card-title"
+    [ngClass]="{'REDdalmiac': dalmiacSuit === 'hearts' || dalmiacSuit === 'diamonds', 'BLACKdalmiac': dalmiacSuit === 'spades' || dalmiacSuit === 'clubs'}">
+    {{dalmiacTitle}}
+  </span>
+  <img [src]="dalmiacImage" [id]="dalmiacSuit" alt="Card Image" class="card-image">
+  <div class="button-container">
+    <button mat-stroked-button color="accent" (click)="dalmiacRotate(dalmiacSuit, dalmiacDegree)">Rotate
+      {{dalmiacDegree}}</button>
+    <button mat-stroked-button color="primary" (click)="dalmiacRotate(dalmiacSuit, dalmiacZero)">Rotate
+      {{dalmiacZero}}</button>
+  </div>
+</div>

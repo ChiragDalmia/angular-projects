@@ -1,6 +1,6 @@
 export class A3ClassDalmiac {
-  fullName991234567 = 'Chirag Dalmia';
-  id991234567 = '991714375';
-  email991234567 = 'dalmiac@sheridancollege.ca';
+  fullName991714375 = 'Chirag Dalmia';
+  id991714375 = '991714375';
+  email991714375 = 'dalmiac@sheridancollege.ca';
   loginDalmiac = 'dalmiac';
 }
