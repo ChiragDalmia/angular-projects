@@ -1,0 +1,17 @@
+{
+  "shirtSizes": [
+    { "size": "SM" },
+    { "size": "MED" },
+    { "size": "LG" },
+    { "size": "XL" },
+    { "size": "XXL" }
+  ],
+  "instructions": "Change VALUES to include YOUR actual data and defaults for size and colour",
+  "controlDefaults": {
+    "controlID": "991714375",
+    "controlFirst": "Chirag",
+    "controlLast": "Dalmia",
+    "controlSize": "MED",
+    "controlColour": "blue"
+  }
+}

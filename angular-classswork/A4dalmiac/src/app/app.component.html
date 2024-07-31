@@ -1,0 +1,45 @@
+<h3>A4 for Chirag Dalmia / 991714375</h3>
+<form [formGroup]="dalmiacForm" (ngSubmit)="onSubmit()">
+  <div>
+    <mat-form-field>
+      <input matInput placeholder="Student ID" formControlName="id991714375">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="First Name" formControlName="Chirag">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Last Name" formControlName="Dalmia">
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field>
+      <mat-select placeholder="Shirt Size" formControlName="dalmiacsize">
+        <mat-option *ngFor="let size of sizes" [value]="size.size">
+          {{size.size}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-radio-group formControlName="dalmiaccolour">
+      <mat-radio-button value="blue">Sheridan Blue</mat-radio-button>
+      <mat-radio-button value="orange">Sheridan Orange</mat-radio-button>
+      <mat-radio-button value="black">Black</mat-radio-button>
+    </mat-radio-group>
+
+    <mat-checkbox formControlName="dalmiacinclude1">Campus Name</mat-checkbox>
+    <mat-checkbox formControlName="dalmiacinclude2">Sheridan Logo</mat-checkbox>
+  </div>
+
+  <div>
+    <mat-form-field>
+      <input matInput [matDatepicker]="picker" placeholder="Choose Shirt Date" formControlName="dalmiacdate">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Click to Submit Data</button>
+  </div>
+</form>
+
+<div id="output"></div>

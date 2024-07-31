@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  color: #008080;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+form {
+  border: 2px solid #008080;
+  padding: 15px;
+  width: 500px;
+  box-sizing: border-box;
+  
+}
+
+mat-form-field {
+  width: 32%;
+  margin-right: 2%;
+}
+
+mat-form-field:last-of-type {
+  margin-right: 0;
+}
+
+.mat-form-field-wrapper {
+  padding-bottom: 0;
+}
+
+.mat-form-field-underline {
+  display: none;
+}
+
+.mat-form-field-infix {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+mat-select,
+input[matInput] {
+  font-size: 14px;
+}
+
+mat-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+mat-radio-button {
+  margin: 5px 0;
+}
+
+mat-checkbox {
+  display: block;
+  margin: 5px 0;
+}
+
+button[type="submit"] {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.mat-datepicker-toggle {
+  color: #008080;
+}
+
+/* Adjustments for layout */
+div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+div:nth-child(2) {
+  align-items: flex-start;
+}
+
+div:last-child {
+  justify-content: flex-start;
+}
+
+div:last-child mat-form-field {
+  width: 200px;
+  margin-right: 20px;
+}
